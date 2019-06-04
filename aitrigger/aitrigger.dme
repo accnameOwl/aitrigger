@@ -1,0 +1,30 @@
+// DM Environment file for aitrigger.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "example"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+#define DEBUG
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "_INFO.dm"
+#include "example\ex1.dm"
+#include "example\map.dmm"
+#include "monster\_Monster.dm"
+#include "monster\AttackState.dm"
+#include "monster\ChaseState.dm"
+#include "monster\FoundTarget.dm"
+#include "monster\HideAITrigger.dm"
+#include "monster\ResetState.dm"
+#include "monster\ShowAITrigger.dm"
+#include "trigger\AITrigger.dm"
+// END_INCLUDE
+

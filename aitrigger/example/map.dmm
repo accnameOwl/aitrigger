@@ -1,0 +1,15 @@
+"a" = (/turf,/area)
+"b" = (/Monster,/turf,/area)
+
+(1,1,1) = {"
+aaaaaaaaaa
+aaaaaaaaaa
+aaaaaaaaaa
+aaaabaaaaa
+aaaaaaaaaa
+aaaaaaaaaa
+aaaaaaaaaa
+aaaaaaaaaa
+aaaaaaaaaa
+aaaaaaaaaa
+"}
