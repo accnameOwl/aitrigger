@@ -1,7 +1,6 @@
 # AI Trigger
 
-@Author: Tafe
-
+    @Author: Tafe
 	Language: .DM (Dream maker)
 	Latest update: v01
 	Date: 4. June 2019
