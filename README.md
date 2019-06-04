@@ -1,0 +1,2 @@
+# aitrigger
+.dm AI trigger
