@@ -7,6 +7,6 @@ AUTO_FILE_DIR: ON
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 512.1468
 WINDOW: _INFO.dm;monster\_Monster.dm;monster\FoundTarget.dm;monster\ChaseState.dm;monster\AttackState.dm;monster\ResetState.dm;aitrigger.dme;monster\ShowAITrigger.dm;trigger\AITrigger.dm;monster\HideAITrigger.dm;example\ex1.dm;example\icon.dmi;example\map.dmm
-FILE: monster\_Monster.dm
+FILE: example\ex1.dm
 */
 // END_INTERNALS
