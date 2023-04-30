@@ -20,14 +20,16 @@ AITrigger
 
 	var
 
-		Monster/parent_monster
+		// Note!
+		// to which source the trigger belongs to, needs to have correct type. Change the variable type as needed.
+		Monster/belongs_to
 
-	New(mob/new_parent)
-		parent_monster = new_parent
+	New(mob/monster)
+		belongs_to = monster
 
 	Crossed(mob/m)
 		if(!ismob(m)) return
-		spawn() parent_monster.FoundTarget(m)
+		spawn() belongs_to.FoundTarget(m)
 
 
 	proc
