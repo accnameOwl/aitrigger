@@ -21,7 +21,8 @@ AITrigger
 	var
 
 		// Note!
-		// to which source the trigger belongs to, needs to have correct type. Change the variable type as needed.
+		// to which source the trigger belongs to, needs to have correct type. 
+		//Change the variable type as needed.
 		Monster/belongs_to
 
 	New(mob/monster)
