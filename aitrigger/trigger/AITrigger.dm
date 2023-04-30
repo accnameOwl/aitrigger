@@ -26,6 +26,7 @@ AITrigger
 		parent_monster = new_parent
 
 	Crossed(mob/m)
+		if(!ismob(m)) return
 		spawn() parent_monster.FoundTarget(m)
 
 
